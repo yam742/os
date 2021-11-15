@@ -1,4 +1,4 @@
-NAME=boot_sect_memory_org
+NAME=boot_sect_stack
 
 $(NAME).bin: $(NAME).asm
 	nasm -fbin $^ -o $@
