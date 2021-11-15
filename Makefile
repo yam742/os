@@ -1,4 +1,4 @@
-NAME=boot_sect_simple
+NAME=boot_sect_memory_org
 
 $(NAME).bin: $(NAME).asm
 	nasm -fbin $^ -o $@
